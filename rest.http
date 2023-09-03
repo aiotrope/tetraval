@@ -1,0 +1,23 @@
+### sanity check for unavailable ports due to load balancer
+GET http://localhost:7777/todos HTTP/1.1
+
+
+### get all todos
+GET http://localhost:7800/todos HTTP/1.1
+
+
+### get single todo
+GET http://localhost:7800/todos/2 HTTP/1.1
+
+
+### create todo
+POST http://localhost:7800/todos HTTP/1.1
+Content-Type: application/json
+
+{
+    "item": "debugging"
+}
+
+
+### delete todo by id
+DELETE http://localhost:7800/todos/2 HTTP/1.1
