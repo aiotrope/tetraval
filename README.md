@@ -2,7 +2,7 @@
 DBSWA assignment: Load Balancer for TODO API
 
 ## CLI Commands
-Running to port 7800 instead of port 7777 due to load balancing
+Running to port 7800 instead of port 7777 with load balancer and nginx
 
 ```bash
 # build todo-api
